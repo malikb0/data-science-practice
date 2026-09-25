@@ -7,6 +7,12 @@ from __future__ import annotations
 
 import pandas as pd
 import plotly.express as px
+import plotly.io as pio
+
+# Load plotly.js from its CDN instead of inlining the whole bundle into saved
+# notebook outputs. The inline bundle is very large and carries map-tile
+# attribution strings we do not want embedded in a teaching repository.
+pio.renderers.default = "notebook_connected"
 
 THEME = "plotly_white"
 
