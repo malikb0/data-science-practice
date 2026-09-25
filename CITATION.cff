@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+title: "Data Science Practice"
+abstract: >-
+  An original, hands-on data science portfolio: nine mini-projects that walk
+  through the end-to-end workflow, from Python fundamentals and SQL to
+  visualisation and machine learning, each on its own open dataset.
+type: software
+authors:
+  - name: "malikb0"
+    alias: malikb0
+    website: "https://github.com/malikb0"
+repository-code: "https://github.com/malikb0/data-science-practice"
+url: "https://github.com/malikb0/data-science-practice"
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+keywords:
+  - data-science
+  - python
+  - sql
+  - machine-learning
+  - data-visualization
+  - reproducible-research
+date-released: "2026-09-25"

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ds-practice"
+version = "1.0.0"
+description = "Shared helpers for the data-science-practice portfolio"
+readme = "docs/README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "malikb0" }]
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

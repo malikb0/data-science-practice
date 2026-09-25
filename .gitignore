@@ -1,0 +1,25 @@
+# Agent scaffolding — never publish
+.orchestrator/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Downloaded / generated data
+data/raw/
+data/cache/
+build/
+
+# Databases
+*.db-journal
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
