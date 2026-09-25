@@ -12,8 +12,13 @@ from pathlib import Path
 
 import pandas as pd
 import plotly.express as px
+import plotly.io as pio
 
 from ds_practice.data import load_gapminder
+
+# Load plotly.js from its CDN rather than inlining the whole bundle into saved
+# notebook outputs (see 08-data-visualization/charts.py).
+pio.renderers.default = "notebook_connected"
 
 DEFAULT_PORT = 8050
 
